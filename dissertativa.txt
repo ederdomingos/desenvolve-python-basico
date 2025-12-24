@@ -1,0 +1,37 @@
+1. Solução Dissertativa:
+
+Aquele truque da tabuada do 9, por trás da aparente simplicidade, existe uma lógica algorítmica bem interessante, aqui, a gente vai destrinchar como funciona esse "macete" para multiplicar o 9 por qualquer número de 1 a 9, usando uma abordagem que separa o resultado em duas partes: a dezena e a unidade. Como se a gente estivesse montando o número final pedacinho por pedacinho.
+
+Entrada de Dados:
+
+A única coisa que a gente precisa é de um número. Mas não é qualquer número,tem que ser um número inteiro, que a gente vai chamar de 'n', e ele precisa estar ali no intervalo de 1 a 9, esse 'n' é o numero que vai ser multiplicado pelo 9.
+
+Processamento:
+
+A gente divide o trabalho em duas etapas, cada uma focada em encontrar um pedacinho do nosso número final:
+
+
+Descobrindo o Dígito da Dezena (D): Para achar o primeiro número do resultado, é só pegar o 'n' que a gente escolheu e tirar 1 dele. 
+
+
+ D = n - 1
+
+
+
+
+Achando o Dígito da Unidade (U):  Pega o número 10 e subtrai o nosso 'n' dele. Isso vai dar certinho o que a gente precisa para completar o resultado.
+
+
+ U = 10 - n
+
+
+
+Depois que a gente tem a dezena e a unidade – é só juntar tudo para formar o número completo. A gente pega o valor da dezena, multiplica por 10 e soma com o valor da unidade,o resultado da multiplicação de 9 por 'n' aparece.
+
+
+Saída de Dados:
+
+
+ Então, o algoritmo vai mostrar pra gente o resultado dessa multiplicação de 9 por 'n' é um número inteir, que é exatamente o produto que a gente estava procurando.
+
+
