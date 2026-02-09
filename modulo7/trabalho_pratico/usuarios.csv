@@ -1,1 +1,5 @@
+id,login,senha,tipo
+1,admin,admin123,gerente
+2,joao,1234,funcionario
+3,maria,abcd,cliente
 
